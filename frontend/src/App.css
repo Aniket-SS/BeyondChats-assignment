@@ -1,0 +1,46 @@
+/* Main layout */
+.app-container {
+  display: flex;
+  gap: 30px;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Left panel (Article list) */
+.article-list {
+  width: 35%;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Article list items */
+.article-item {
+  padding: 10px 8px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.article-item:hover {
+  background-color: #f1f5f9;
+}
+
+/* Right panel (Article details) */
+.article-detail {
+  width: 65%;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+}
+
+/* Empty state */
+.article-placeholder {
+  color: #6b7280;
+  font-style: italic;
+}

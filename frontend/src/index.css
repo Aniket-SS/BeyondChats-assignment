@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f8f9fb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Headings */
+h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: #1f2937;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #374151;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Paragraphs */
+p {
+  margin: 0 0 12px 0;
+  white-space: pre-line;
+}
+
+/* Utility */
+.text-muted {
+  color: #6b7280;
+}

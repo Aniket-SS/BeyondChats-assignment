@@ -15,30 +15,6 @@ The system is designed with **real-world backend architecture**, scalability, an
 
 ---
 
-## 🧠 System Architecture
-
-┌────────────┐
-│ Scraper    │ → Fetches oldest blogs
-└─────┬──────┘
-      │
-┌─────▼──────┐
-│ MongoDB    │ → Stores articles
-└─────┬──────┘
-      │
-┌─────▼──────┐
-│ Express.js │ → REST APIs
-└─────┬──────┘
-      │
-┌─────▼──────┐
-│ Automation │ → Enhances content (Phase-2)
-└─────┬──────┘
-      │
-┌─────▼──────┐
-│ Frontend   │ → Displays articles
-└────────────┘
-
----
-
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -93,32 +69,6 @@ The automation pipeline is **designed to support LLM-based content enhancement**
 Due to billing constraints during development, a **mock enhancement module** was used to demonstrate the complete automation workflow.
 
 The system can seamlessly integrate OpenAI or similar LLM APIs by replacing the mock module without changing the overall architecture.
-
----
-
-## 📁 Project Structure
-
-BeyondChats/
-│
-├── backend/
-│ ├── routes/
-│ ├── models/
-│ ├── scrapers/
-│ └── app.js
-│
-├── automation-script/
-│ ├── index.js
-│ ├── mockEnhancer.js
-│ └── package.json
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── api.js
-│ │ ├── App.jsx
-│ │ └── index.css
-│
-└── README.md
 
 ---
 
